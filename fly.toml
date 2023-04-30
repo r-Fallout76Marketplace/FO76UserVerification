@@ -1,0 +1,13 @@
+# fly.toml app configuration file generated for fallout76marketplace-user-verification on 2023-04-30T17:45:55-04:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "fallout76marketplace-user-verification"
+primary_region = "den"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
